@@ -1,0 +1,174 @@
+*{
+	padiing:0;
+	margin:0;
+}
+.navbar{
+	background: #4caf50;
+	height: 80px;
+	box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11);
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+.navbar_main{
+	height: 100%;
+	width:95%;
+	
+	margin:auto;
+}
+.navbar_nav{
+
+	color:#fff;
+	 
+	  list-style-type: none;
+	 
+}
+.navbar_nav li{
+
+	float: left;
+	margin-right:40px; 
+}
+.navbar_nav li.maintitle{
+	height: 80x;
+  line-height: 80px;
+  font-size: 2em;
+  font-weight:bold;
+}
+.navbar_nav li.item{
+	 font-weight: 700;
+	height: 80x;
+  line-height: 80px;
+  /*padding-top: 10px;
+  padding-bottom: 10px;*/
+}
+.navbar_nav li.item a{
+	text-decoration: none;
+	color: #fff;
+}
+.navbar_nav li.item a:hover{
+	text-decoration: none;
+	color: #1B5E20;
+}
+#intro{
+	margin-top: 100px;
+}
+
+#intro .left_intro{
+	float: left;
+	width: 20%;
+	
+	height:600px;
+	margin-top: :50px;
+	margin-left: 70px;
+	margin-right: 100px;
+	box-shadow: 1px 1px 10px #ccc;
+}
+#profile{
+	text-align: center;
+
+}
+.portrait{
+	width: 200px;
+	height:200px;
+	margin: 0 auto;
+	margin-top: 40px!important;
+	
+	border-radius: 50%;
+	object-fit: cover;
+}
+.portrait_title{
+	text-align: center;
+}
+.portrait_title p{
+	line-height: 2em;
+}
+.name{
+	font-size:35px;
+	font-family: sans-serif;
+	margin:20px 0px 10px; 
+	color: #000;
+
+}
+.jobTitle{
+	font-size:20px;
+	font-family:'Montserrat', sans-serif;
+	margin:0px 0px 10px;
+	color: #716b6b8a;
+
+}
+.right_intro{
+	float:left;
+	width:60%;
+
+
+}
+
+.right_intro p{
+
+	margin-top: 40px;
+	font-weight: 400;
+	font-family: 'Montserrat',sans-serif;
+	font-size: 20px;
+	line-height: 40px;
+}
+#papers{
+	clear: both;
+	width: 100%;
+	height:800px;
+	background: #F7F7F7;
+
+}
+.sectionTitle{
+	margin-top: 100px;
+	margin-left: 100px;
+	
+	width:30%;
+	float: left;
+
+}
+.sectionContent{
+	margin-top: 100px;
+	
+	float:left;
+	width: 50%;
+
+
+}
+.sectionContent ul li{
+	list-style: none;
+}
+.paperitem{
+	padding: 50px;
+	
+}
+.publications{
+	color: #999;
+	font-size: 0.9em;
+}
+.shadow{
+	box-shadow: 1px 1px 10px #ccc;
+}
+.shadow:hover{
+	box-shadow: 3px 3px 20px #ccc;
+}
+
+#projects{
+	height: 600px;
+}
+#awards{
+	height: 400px;
+	background: #f7f7f7;
+}
+.sectionContent h4{
+	line-height: 2em;
+	font-size: 20px;
+
+}
+
+a{
+	text-decoration: none;
+	color: #28a745;
+}
+.paperitem a:hover{
+	text-decoration: underline;
+}
