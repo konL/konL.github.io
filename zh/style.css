@@ -51,17 +51,20 @@
 }
 #intro{
 	margin-top: 100px;
+	
 }
 
 #intro .left_intro{
 	float: left;
-	width: 20%;
+	width: 22%;
 	
-	height:600px;
+	padding-bottom: 100px;
 	margin-top: :50px;
 	margin-left: 70px;
 	margin-right: 100px;
 	box-shadow: 1px 1px 10px #ccc;
+	background: #f7f7f7;
+
 }
 #profile{
 	text-align: center;
@@ -81,6 +84,7 @@
 }
 .portrait_title p{
 	line-height: 2em;
+
 }
 .name{
 	font-size:35px;
@@ -95,10 +99,11 @@
 	margin:0px 0px 10px;
 	color: #716b6b8a;
 
+
 }
 .right_intro{
 	float:left;
-	width:60%;
+	width:50%;
 
 
 }
@@ -120,9 +125,9 @@
 }
 .sectionTitle{
 	margin-top: 100px;
-	margin-left: 100px;
+	margin-left: 200px;
 	
-	width:30%;
+	width:15%;
 	float: left;
 
 }
